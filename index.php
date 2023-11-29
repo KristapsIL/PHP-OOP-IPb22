@@ -1,6 +1,7 @@
 <?php
-
+include "Tire.php";
 include "Car.php";
-$Car1 = new Car("BMW",15);
-$Car1->increaseMileage(240);
-$Car2 = new Car("Telsa",100);
+include "Train.php";
+
+$Train1 = new Train("union",1.435,200);
+$Train1->increaseMileage(100);
